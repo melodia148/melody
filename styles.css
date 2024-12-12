@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgba(236, 179, 232, 0.712);
+}
+
+header {
+    background-color: rgb(99, 60, 92);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+   margin: 0;
+   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    background-color: rgb(99, 218, 99);
+    margin: 20px 0;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: rgb(211, 134, 198);
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid rgb(213, 131, 216);
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: rgb(223, 151, 233);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: rgb(177, 70, 187);
+}
+
+footer {
+    background-color:rgb(211, 115, 198) ;
+    color: rgb(99, 73, 88);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
